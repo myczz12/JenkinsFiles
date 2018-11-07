@@ -1,5 +1,5 @@
 pipeline {
-    agent { docker { image 'maven:3.3.3' } }
+    agent { docker { image 'gradle:4.10.2' } }
     stages {
         stage('build') {
             steps {
